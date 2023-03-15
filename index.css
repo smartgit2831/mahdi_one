@@ -243,7 +243,7 @@
         #str{
             text-align: center;
         }
-        @media(max-width : 320px){
+        @media(max-width : 500px){
             body{
                 overflow-x: hidden;
             }
