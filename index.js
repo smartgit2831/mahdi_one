@@ -37,7 +37,7 @@
                 pjavab.innerText = "اضافه وزن";
                 pjavab.style.color = "orange";
             }else{
-                pjavab.innerText = "لطفا گوه نخور دیگه درست بزن یابو علفی"
+                pjavab.innerText ="لطفا اعداد خود را صحیح وارد کنید "
             }   
         }
         const number1 = document.querySelector('.number1');
