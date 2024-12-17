@@ -25,6 +25,9 @@
         .none{
             display: none;
         }
+
+
+        /* 1-2-3-4-5 */
         .container{
             text-align: center;
             margin-top: 12%;
@@ -80,6 +83,10 @@
             background-color: #e1e1e1;
             cursor: not-allowed;
         }
+
+
+
+        /* slide picture */
         #slides{
             margin-left: 35%;
             margin-top: 25px;
@@ -128,19 +135,21 @@
                 height: 300px;
             }
         }
+        /* bmi */
         .k{
             text-align: center;
         }
         .mohasebe{
             margin: 8px;
-            border-radius: 25px;
+            border-radius: 6px;
             background: #337f85;
-            padding: 3px 12px 3px 12px;
+            padding: 5px 32px;
         }
         .input_bmi{
-            border-radius: 35px;
+            border-radius: 8px;
             background: #d4c8c8;
             text-align: center;
+            padding: 10px;
         }
         .jadval{
             width: 600px;
@@ -168,6 +177,7 @@
             margin: auto;
             margin-bottom: 25px;
         }
+        /* mashin hesab */
         .car_hesab{
             width: 500px;
             margin: auto;
@@ -177,33 +187,37 @@
             background: #eaeaea;
         }
         .number1{
-            border-radius: 25px;
-            text-align: center;
+            border-radius: 7px;
+            text-align: right;
             margin: 5px;
-            background: #d4c8c8;
+            padding: 10px;
+            width: 107%;
         }
         .number2{
-            border-radius: 25px;
-            text-align: center;
+            border-radius: 7px;
+            text-align: right;
             margin: 5px;
-            background: #d4c8c8;
+            padding: 10px;
+            width: 107%;
         }
         #option{
             margin-top: 29%;
-            border-radius: 25px;
-            background-color: #f5e618;
-            width: 110px;
-            text-align: center;
+            border-radius: 5px;
+            background-color: #fff;
+            width: 100%;
+            padding: 8px;
         }
         .click_mohasebe{
             margin-top: 29%;
             width: 100px;
-            border-radius: 25px;
-            background: #0dcc46;
+            border-radius: 5px;
+            background: #19b3e2;
+            padding: 5px;
         }
         .javab_mashin{
             color: #f77b08;
         }
+        /* negareshey */
         .negareshey{
             width: 560px;
             height: 400px;
@@ -213,10 +227,12 @@
         }
         #input_negareshi{
             margin: 8%  0 0 15%;
+            padding: 4px;
         }
         #click_negareshi{
-            border-radius: 25px;
+            border-radius: 6px;
             background: #0a93ee;
+            padding: 5px 32px;
         }
         #vard_matn{
             text-align: center;
@@ -226,6 +242,7 @@
             text-align: center;
             margin-top: 8%;
         }
+        /* type auto */
         .type_auto_whrite{
             width: 560px;
             margin: auto;
@@ -236,14 +253,22 @@
         }
         .start_type{
             float: right;
-            border-radius: 25px;
+            border-radius: 8px;
+            background: red;
+            padding: 5px 12px 5px 12px;
+        }
+        .clear_type{
+            float: right;
+            border-radius: 8px;
             background: red;
             padding: 5px 12px 5px 12px;
         }
         #str{
             text-align: center;
+            word-wrap: break-word;
         }
-        @media(max-width : 500px){
+        /* phone */
+        @media(max-width : 320px){
             body{
                 overflow-x: hidden;
             }
